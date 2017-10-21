@@ -12,6 +12,6 @@ api.use(articles)
 api.use(profiles)
 api.use(tags)
 
-router.use('/api', api.routes())
+router.use('/', api.routes())
 
 module.exports = router
